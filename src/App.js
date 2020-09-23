@@ -1,12 +1,12 @@
 import React from "react";
-import logo from "./output-onlinepngtools.png";
+import logo from "./ISI_Logo.png";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" />
       </header>
     </div>
   );
