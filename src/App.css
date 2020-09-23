@@ -14,7 +14,27 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: rgb(70, 180, 50);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(70, 180, 50, 1) 0%,
+    rgba(3, 20, 0, 1) 52%,
+    rgba(3, 11, 1, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(70, 180, 50, 1) 0%,
+    rgba(3, 20, 0, 1) 52%,
+    rgba(3, 11, 1, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(70, 180, 50, 1) 0%,
+    rgba(3, 20, 0, 1) 52%,
+    rgba(3, 11, 1, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#46b432",endColorstr="#030b01",GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#46b432",endColorstr="#030b01",GradientType=1);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
